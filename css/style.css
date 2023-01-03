@@ -1,0 +1,41 @@
+body{
+    background-color: #eee;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+
+}
+.header-container{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    margin-top: 10px;
+
+}
+.header-container img{
+    width: 50px;
+
+}
+.form-details{
+    align-items: center;
+    justify-content: center;
+   margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.button-control{
+    text-align: center;
+    margin: 20px;
+
+}
+.congra img{
+    width: 50%;
+    border-radius: 18px;
+}
+
+/* media query */
+
+@media only screen and (max-width: 600px) {
+    .header-container{
+        display: block;
+    }
+  }
