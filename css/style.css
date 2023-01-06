@@ -1,41 +1,57 @@
-body{
+body {
     background-color: #eee;
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
 
 }
-.header-container{
+
+.header-container {
     align-items: center;
     justify-content: center;
-    display:flex;
+    display: flex;
     margin-top: 10px;
 
 }
-.header-container img{
+
+.header-container img {
     width: 50px;
 
 }
-.form-details{
+
+.form-details {
     align-items: center;
     justify-content: center;
-   margin-top: 5%;
+    margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
 }
-.button-control{
+
+.button-control {
     text-align: center;
     margin: 20px;
 
 }
-.congra img{
+
+.congra img {
     width: 50%;
     border-radius: 18px;
+}
+
+.star-color {
+    color: red;
+}
+
+.login-control {
+
+    margin-left: 20%;
+    padding: 20px;
+
 }
 
 /* media query */
 
 @media only screen and (max-width: 600px) {
-    .header-container{
+    .header-container {
         display: block;
     }
-  }
+}
