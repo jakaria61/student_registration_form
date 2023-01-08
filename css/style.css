@@ -3,7 +3,6 @@ body {
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
 
-
 }
 
 
@@ -64,6 +63,15 @@ body {
     color: white;
     margin: 10px;
     padding: 10px;
+}
+
+.dashboard-control {
+    text-align: center;
+    color: red;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /* media query */
