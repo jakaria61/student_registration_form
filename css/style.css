@@ -46,9 +46,24 @@ body {
 
 .login-control {
 
-    margin-left: 20%;
+    margin: 10%;
     padding: 20px;
+    background-color: #eee;
+    border-radius: 10px;
 
+}
+
+.login-form-control {
+    border: 1px solid rgb(119, 115, 115);
+    border-radius: 18px;
+    background-color: white;
+}
+
+.signUp a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding: 10px;
 }
 
 /* media query */
@@ -56,5 +71,9 @@ body {
 @media only screen and (max-width: 600px) {
     .header-container {
         display: block;
+    }
+
+    #dept {
+        width: 50%;
     }
 }
